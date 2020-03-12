@@ -9,8 +9,37 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+  <section class="contact pad-t-q pad-b-2">
+    <div class="max-length">
+      <h1>Send us a sweet little note</h1>
 
-
+      <form class="push-0">
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" required>
+        </div>
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" required>
+        </div>
+        <div>
+          <label for="subject">Subject</label>
+          <select id="subject">
+            <option>Get a quote!</option>
+            <option>General qustion!</option>
+            <option>Just to talk</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="details">What's up?</label>
+          <textarea id="details" required></textarea>
+        </div>
+        <div class="push">
+          <button class="btn btn-light mega" type="submit">Send message</button>
+        </div>
+      </form>
+    </div>
+  </section>
 
 </body>
 </html>
